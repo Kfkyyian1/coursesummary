@@ -57,9 +57,3 @@ With the visualisation above, the senior management team can analyze and possibl
 - Optimize resource allocation based on ongoing courses.
 
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/bde7bd23-91ea-48b7-af2d-05ea0ca4864d)
-
-
-
-
-
-
