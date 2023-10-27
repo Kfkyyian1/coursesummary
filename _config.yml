@@ -1,4 +1,4 @@
-title: Visualizing Course Status: A Unified Perspective
+title: Visualizing Course Status - A Unified Perspective
 description: This project integrates CSV data from 4 files, creating a unified MySQL table. It refines the table structure, analyzes course status, and organizes insights. Using limited R graphics functions, it crafts a visual to offer a comprehensive summary of active and retired courses.
 show_downloads: TRUE
 theme: jekyll-theme-minimal
