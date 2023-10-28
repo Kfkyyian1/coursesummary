@@ -1,5 +1,5 @@
 # Using R to combine CSV files into a table & uploading to MySQL 
-![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/9bbaf743-7d38-45d0-973f-30c764c10ffb) <br>
+![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/cb9e54e5-fad0-440a-b779-a80eb8d53123)<br>
 <p>After loading in the necessary package, a function named “uploadCSV” was used to read in all the CSV files and combining it into a table as instructed in the question. </p>
 
 <p>The database details and folder path were first established. Then the list.files command was used to list out all the files that are in CSV format within the specified folder. This function is used instead of listing out all 4 file names, so that it’ll be more sustainable in the future when there’s new CSV files being added to the folder.  </p>
@@ -17,12 +17,12 @@ Moving on, all the CSV files were then combined into a dataframe called combined
 
 # Data Cleaning & Sanity Check in MySQL
 1. Check if the rows and columns match the raw data <br>
-![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/df0c7eb8-9621-465c-a74e-4870976d7706) <br>
-<img width="452" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/221b14dd-b50f-4b34-9f38-3b24129b6763"> <br>
+![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/c82f9003-232e-4acd-8e93-d486cfddd5dc) <br>
+<img width="848" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/31e819fd-0424-4d3f-9938-09fc5de08880"> <br>
 
 2. Remove the additional column <br>
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/3810a8b0-ed1e-457c-979d-e87f265d837f) <br>
-<img width="440" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/a5818063-55d1-41c9-9091-d57f5fe51769">
+<img width="822" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/b3981aa6-a068-4fae-8f47-1a56bc3d154b">
 
 3. Check type of data <br>
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/1d150fbf-a00a-4c51-9964-8d80e0f62ba8) <br>
@@ -30,17 +30,17 @@ Moving on, all the CSV files were then combined into a dataframe called combined
 
 4. Clean up column names <br>
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/2d5a6cd5-9090-43e2-b0a0-80eaff4caa55) <br>
-<img width="452" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/3e28cd5e-d1c9-439b-9df2-2ef715299859">
+<img width="829" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/b0739878-552c-42e9-b5e0-6b78bf9214ab">
 
 # Create a new table containing (i) the number of courses ever offered, (ii) percentage of active courses offered, (iii) percentage of retired courses for each program and school <br>
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/65b43504-f60b-42e2-bac2-e1e49e24ed5c) <br>
 After refreshing MySQL, the table is created as shown below. <br>
-<img width="1310" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/57332529-0dd9-4f1f-8495-60b2a163c891"> <br>
+<img width="876" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/5c10fe51-67da-4838-a09b-680315e7e0b9"> <br>
 
 # Visualise data in R
 1. Read in course_summary table into R <br>
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/51b7929b-dcd2-43b7-9ce7-27783337bd5d) <br>
-<img width="628" alt="course_summary_in_R" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/33bcde8d-4cf3-4f88-9729-bddaa3832559"> <br>
+<img width="868" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/88c29389-1a4f-4dd5-af2a-6fa19eeabc6c"> <br>
 
 2. Data Sanity Check <br>
 - The number of rows and columns match the table in MySQL, indicating all the data has been fetched. (93 rows, 5 columns) <br>
