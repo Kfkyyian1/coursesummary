@@ -32,7 +32,11 @@ Moving on, all the CSV files were then combined into a dataframe called combined
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/2d5a6cd5-9090-43e2-b0a0-80eaff4caa55) <br>
 <img width="829" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/b0739878-552c-42e9-b5e0-6b78bf9214ab">
 
-# Create a new table containing (i) the number of courses ever offered, (ii) percentage of active courses offered, (iii) percentage of retired courses for each program and school <br>
+# Create a new table <br>
+Table containing:<br>
+(i) the number of courses ever offered, <br>
+(ii) percentage of active courses offered, <br>
+(iii) percentage of retired courses for each program and school<br>
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/65b43504-f60b-42e2-bac2-e1e49e24ed5c) <br>
 After refreshing MySQL, the table is created as shown below. <br>
 <img width="876" alt="image" src="https://github.com/Kfkyyian1/coursesummary/assets/146427900/5c10fe51-67da-4838-a09b-680315e7e0b9"> <br>
