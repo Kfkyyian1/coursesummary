@@ -52,12 +52,14 @@ After refreshing MySQL, the table is created as shown below. <br>
 ![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/6246e9e4-b9a8-4b13-9a35-c61a71f94308)
 
 3. Visualisation
-![Total Number of Active   Retired Courses](https://github.com/Kfkyyian1/coursesummary/assets/146427900/caa55806-d75f-4d81-8e75-57f95e709e73) <br>
-<p>The senior management team is often constrained by time, and only requires a quick overview of the data. Therefore, the visualisation is simplified to only showcase the total number of active and retired courses within each school. Notably, the School of Science & Technology exhibits the number of active courses, surpassing retired courses. In contrast, other schools demonstrate a lower number of active courses in comparison to their retired courses. School of Humanities have the lowest total number of courses. </p>
+![Total Number of Active   Retired Courses_CORRECT](https://github.com/Kfkyyian1/coursesummary/assets/146427900/f89eb3df-64f2-48b2-9f77-ebc94b203cbc)<br>
+<p>The senior management team is often constrained by time, and only requires a quick overview of the data. Therefore, the visualisation is simplified to only showcase the total number of active and retired courses within each school. Notably, the School of Science & Technology exhibits the number of retired courses, surpassing active courses. In contrast, other schools demonstrate a higher number of active courses in comparison to their retired courses. </p>
 
 With the visualisation above, the senior management team can analyze and possibly take some of the next steps below and make informed decisions:
-- Explore programs in School of Science & Technology, investigate factors that contribute to the high number of ongoing courses.
-- Assess the demand for humanities and business-related courses, explore opportunities to enhance program offerings.
+- Explore programs in School of Science & Technology, investigate factors that contribute to the high number of retired courses.
+- Assess the demand for Science & Technology courses, explore opportunities to enhance program offerings.
 - Optimize resource allocation based on ongoing courses.
 
-![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/bde7bd23-91ea-48b7-af2d-05ea0ca4864d)
+![image](https://github.com/Kfkyyian1/coursesummary/assets/146427900/9158d56a-abd5-4396-8318-f3b24514e19a)
+
+
